@@ -56,8 +56,17 @@
 </b-container>
 <b-container class="bv-example-row">
   <b-row>
-    <b-col>1 of 2</b-col>
-    <b-col>2 of 2</b-col>
+    <b-col>1 of 2
+      <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+    </b-col>
+    <b-col>2 of 2
+      <div class="alert alert-secondary" role="alert">
+  This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+    </b-col>
+  
   </b-row>
 
   <b-row>
@@ -77,9 +86,21 @@
 </b-container>
 <b-container class="bv-example-row">
   <b-row class="justify-content-md-center">
-    <b-col col lg="2">1 of 3</b-col>
-    <b-col cols="12" md="auto">Variable width content</b-col>
-    <b-col col lg="2">3 of 3</b-col>
+    <b-col col lg="2">1 of 3
+      <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+    </b-col>
+    <b-col cols="12" md="auto">Variable width content
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+    </b-col>
+    <b-col col lg="2">3 of 3
+<div class="alert alert-primary" role="alert">
+  This is a 3rd alert—check it out!
+</div>
+    </b-col>
   </b-row>
 
   <b-row>
